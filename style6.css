@@ -1,0 +1,51 @@
+/* universal selector */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+/* type/element/tag selector */
+strong {
+    font-size: 20px;
+}
+/* type/element/tag selector */
+p{
+    color: #000;
+    background-color: rgba(234, 87, 35, 0.5);
+    /* Absolute */
+    width: 20px;
+    /* Relative Units */
+    width: 75vw;
+    /* the numbered values with no units */
+    margin: 0;
+    line-height: 1.2;
+}
+/* type/element/tag selector */
+div{
+    /* function values */
+    transform: rotate(0deg);
+    width: calc(100% - 20px);
+    height: 100vh;
+    background-image: url("https://valcomm.co.uk/wp-content/uploads/2018/02/background.png");
+    background-size: cover;
+}
+/* class selector */
+.heading {
+ background-color: #000;
+}
+/* id selector */
+#one {
+font-size: 25px;
+}
+/* desendent selector */
+.div p{
+    font-size: 60px;
+}
+/* grouping selector */
+h1,h2,h3,h4,h5,h6{
+    color: aliceblue;
+}
+/* combining selector */
+.container {
+    font-style: italic;
+}
